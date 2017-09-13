@@ -1,0 +1,22 @@
+/* MENU MOBILE */
+._btn-mn-mobile {
+	position: fixed;
+	top: 0;
+	z-index: 9;
+	width: 100%;
+
+	.ion-android-menu {
+		&:before {
+			font-size: 34px;
+			color: #fff;
+			margin-top: 20px;
+			@include transition(.3s);
+		}
+
+		&:hover {
+			&:before {
+				color: #ececec;
+			}
+		}
+	}
+}

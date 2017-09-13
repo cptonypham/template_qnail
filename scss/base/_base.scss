@@ -1,0 +1,26 @@
+body {
+	@include Montserrat();
+}
+
+.content {
+	height: 100%;
+}
+
+.clear-fix {
+	clear: both;
+}
+.no-padding {
+	padding: 0;
+}
+.no-margin {
+	margin: 0;
+}
+.bg-fixed {
+    background-attachment: fixed;
+}
+.no-radius {
+	@include border-radius(0);
+}
+.text-bold {
+	font-weight: bold;
+}

@@ -1,0 +1,42 @@
+/* 
+	Project name
+	Author: Thong Pham
+	Version: 0.0.1
+*/ 
+
+@import url(reset.css);
+@import url(bootstrap.min.css);
+@import url(font-awesome.min.css);
+@import url(ionicons.min.css);
+@import url(../sources/animate/animate.css);
+@import 'eff/hover-master/hover.scss';
+
+/* BASE - Base styles, variable, mixins, etc */
+@import 'base/_fonts.scss';
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+@import 'base/_normalize.scss';
+@import 'base/_base.scss';
+@import 'base/_keyframes.scss';
+
+/* MODULES - Individual site components */
+@import 'modules/_typography.scss';
+@import 'modules/_blocks.scss';
+@import 'modules/_button.scss';
+@import 'modules/_components.scss';
+@import 'modules/_sections.scss';
+
+/* LAYOUT - Page layout styles */
+@import 'layouts/_menu-mobile.scss';
+@import 'layouts/_slide.scss';
+@import 'layouts/_header.scss';
+@import 'layouts/_footer.scss';
+@import 'layouts/_about-us.scss';
+@import 'layouts/_services.scss';
+@import 'layouts/_gallery.scss';
+@import 'layouts/_contact-us.scss';
+@import 'layouts/_home-page.scss';
+@import 'layouts/_index.scss';
+
+/* RESPONSIVE - Page layout styles mobile */
+@import 'rps/_responsive.scss';
